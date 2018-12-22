@@ -1,0 +1,1 @@
+{"33495bcb-0a52-4d64-8f42-949f1fda7a0f":{"resourceKinds":[{"resourceKindKey":"HostSystem","adapterKindKey":"VMWARE"}],"modificationTime":1545440432323,"name":"tkopton-RemainingCores","formula":"avg(${this, attribute=cpu|corecount_provisioned})-avg(${this, attribute=summary|number_running_vcpus})","description":""}}
